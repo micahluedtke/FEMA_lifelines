@@ -1,12 +1,30 @@
 # FEMA Lifelines 
 ## Define the Problem
-Where should FEMA first deploy resources in a disaster? 
+Where should FEMA first deploy resources in a disaster?
+
+### Approach to Problem
+Build a risk assessment model
+Risk = Vulnerability - Resources
+Visualize risk on census tract map of MA
 ## Gather the Data
-We initially attempt to get information from the Yelp API 
+
+We initially attempt to get information from the Yelp API but ultimately found that FourSquare had a greater variety of lifeline data. We used data from the Census Bureau and CDC to determine vulnerability.
+
+Vulnerability: CDC social vulnerability data
+
+Resources: social media webscraping with Foursquare API
+
 ## Explore the Data
+Challenges:
+Foursquare limitations
+Combining lifeline and vulnerability dataframes in Geopandas
 ## Model the Data
-## Evaluate the Model
-## Answer the Problem
+Created two interactive maps of Massachusetts:
+Heatmap with high risk areas in red and low risk areas in green
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+Heatmap with lifelines identified with dots
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+## Evaluate the Model and Answer the Problem
 ### Disclaimer
 This code makes use of the FourSquare API. Per their [website](https://foursquare.com/legal/api/platformpolicy):
 <br>"I. General
