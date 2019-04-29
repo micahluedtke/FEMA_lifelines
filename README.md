@@ -21,9 +21,9 @@ Combining lifeline and vulnerability dataframes in Geopandas
 ## Model the Data
 Created two interactive maps of Massachusetts:
 Heatmap with high risk areas in red and low risk areas in green
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/mass_risk_only.png)
 Heatmap with lifelines identified with dots
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/mass_with_lifeline.png)
 ## Evaluate the Model and Answer the Problem
 ### Disclaimer
 This code makes use of the FourSquare API. Per their [website](https://foursquare.com/legal/api/platformpolicy):
