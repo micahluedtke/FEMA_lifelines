@@ -14,7 +14,7 @@ For the purposes of this project, we do not have the hazard metric.  We have def
 ## Gather and Explore Data
 Vulnerability: The CDC provides calculations for the vulnerability data based on various social risk metrics by census tract in Massachusetts.  These metrics are outlined as shown below:
 
-![alt text](https://git.generalassemb.ly/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/SVI.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/lifeline_count.png)
 
 Resources: We used social media webscraping for the Foursquare API to pull resource locations.  We then categorized those locations by their FEMA lifeline as follows:
 1. Safety and Security: Police Department, Fire Department
@@ -24,7 +24,7 @@ Resources: We used social media webscraping for the Foursquare API to pull resou
 5. Communication: Not included in this analysis due to lack of readily available and interpretable data
 6. Transportation: Gas Station
 7. Hazardous Waste: Hazardous Waste Facilities (from www.mass.gov)
-![alt text](https://git.generalassemb.ly/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/lifeline_count.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/lifeline_count.png)
 
 ## Challenges with the Data
 **Foursquare limitations:**
@@ -51,13 +51,13 @@ Initially, we had the social vulnerability data by census tract and lifeline loc
 **Created two maps of Massachusetts using Geopandas and Bokeh:**
 
 Heatmap with high risk areas in red and low risk areas in green:
-![alt text](https://git.generalassemb.ly/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/mass_risk_only.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/mass_risk_only.png)
 Heatmap with lifelines identified with dots:
-![alt text](https://git.generalassemb.ly/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/mass_with_lifeline.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/mass_with_lifeline.png)
 ## Evaluate the Model and Answer the Problem
 FEMA will use the map to identify high risk areas to send first responders and prioritize resource allocation.
 Assessing the riskiest census tracts in Massachusetts:
-![alt text](https://git.generalassemb.ly/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/risky_tracts_table.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/risky_tracts_table.png)
 
 ## Steps to Execute the Code
 1. Open FEMA_lifelines notebook.
