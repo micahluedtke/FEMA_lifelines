@@ -14,7 +14,7 @@ For the purposes of this project, we do not have the hazard metric.  We have def
 ## Gather and Explore Data
 Vulnerability: The CDC provides calculations for the vulnerability data based on various social risk metrics by census tract in Massachusetts.  These metrics are outlined as shown below:
 
-![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/lifeline_count.png)
+![alt text](https://github.com/micahluedtke/FEMA_lifelines/blob/master/maps-and-images/SVI.png)
 
 Resources: We used social media webscraping for the Foursquare API to pull resource locations.  We then categorized those locations by their FEMA lifeline as follows:
 1. Safety and Security: Police Department, Fire Department
